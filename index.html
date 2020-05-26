@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./style.css" />
+		<title>Desafio 01</title>
+	</head>
+	<body>
+        
+		<div class="sliders">
+            <form class="form">
+			<label>(R) Vermelho</label>
+			<input type="range" name="red" id="red" value="0" min="0" max="255"/>
+            <input type="text" name="valor" id="valueRed"  disabled/>
+            </form>
+            <form class="form">
+			<label>(G) Verde</label>
+			<input type="range" name="green" id="green" value="0" min="0" max="255"/>
+			<input type="text" name="valor" id="valueGreen" disabled/>
+            </form>
+            <form class="form"> 
+			<label>(B) Azul</label>
+			<input type="range" name="blue" id="blue" value="0" min="0" max="255"/>
+            <input type="text" name="valor" id="valueBlue" disabled/>
+            </form>
+
+		</div>
+
+		<div class="colorCanvas" id="colorCanvas"></div>
+    </body>
+    <script src="./script.js"></script>
+</html>

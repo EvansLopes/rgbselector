@@ -1,0 +1,35 @@
+
+.sliders{
+    position: relative;    
+    max-width: 500px;
+    height: 100px;
+    align-items: center;
+    margin: auto auto 20px auto;
+}
+#red{
+    margin-left: 27px;
+}
+#green{
+    margin-left: 50px;
+}
+#blue{
+    margin-left: 57px;
+}
+#valueRed{
+    margin-left: 15px;
+}
+#valueGreen{
+    margin-left: 15px;
+}
+#valueBlue{
+    margin-left: 15px;
+}
+
+
+.colorCanvas{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: auto auto 20px auto;
+}
