@@ -4,30 +4,48 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="./style.css" />
-		<title>Desafio 01</title>
+		<title>RGB Selector</title>
 	</head>
 	<body>
-        
+		<h1 class="textoTopo">
+			<p>Seletor de RGB do Firmino!</p>
+		</h1>
+		
+        <div class="container" id="container">
 		<div class="sliders">
             <form class="form">
-			<label>(R) Vermelho</label>
+			<label class="labelRed">(R) Vermelho</label>
 			<input type="range" name="red" id="red" value="0" min="0" max="255"/>
             <input type="text" name="valor" id="valueRed"  disabled/>
             </form>
             <form class="form">
-			<label>(G) Verde</label>
+			<label class="labelGreen" >(G) Verde</label>
 			<input type="range" name="green" id="green" value="0" min="0" max="255"/>
 			<input type="text" name="valor" id="valueGreen" disabled/>
             </form>
             <form class="form"> 
-			<label>(B) Azul</label>
+			<label class="labelBlue" >(B) Azul</label>
 			<input type="range" name="blue" id="blue" value="0" min="0" max="255"/>
             <input type="text" name="valor" id="valueBlue" disabled/>
             </form>
 
 		</div>
 
-		<div class="colorCanvas" id="colorCanvas"></div>
+		<div class="colorCanvas" id="colorCanvas">
+			
+		</div>
+		<input type="text" name="result" id="result" disabled>
+	</div>
+
+	<div class="explainContent">
+		<h1 class="conteudoBlog">O que é o RGB?</h1>
+		<p class="blog">RGB é a abreviatura de um sistema de cores aditivas em que o Vermelho (Red), o Verde (Green) e o Azul (Blue) são combinados de várias formas de modo a reproduzir um largo espectro cromático. </p>
+		  <p class="blog"> O propósito principal do sistema RGB é a reprodução de cores em dispositivos eletrônicos como monitores de TV e computador, retroprojetores, scanners e câmeras digitais, assim como na fotografia tradicional. </p>
+		  <p class="blog">Em contraposição, impressoras utilizam o modelo CMYK de cores subtrativas. </p>
+
+		   <p class="blog"> O modelo de cores RGB é baseado na teoria de visão colorida tricromática, de Young-Helmholtz, e no triângulo de cores de Maxwell. </p>
+		   <p class="blog">O uso do modelo RGB como padrão para apresentação de cores na Internet tem suas raízes nos padrões de cores de televisões RCA de 1953 e no uso do padrão RGB nas câmeras Land/Polaroid, pós Edwin Land.</p>
+	</div>
     </body>
     <script src="./script.js"></script>
 </html>

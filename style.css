@@ -1,14 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: bold;
+    display: flexbox;
+    background-color: snow;
+}
+#container{
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 3%;
+    width: 500px;
+    height: 300px;
+    position: center;
+    margin-left: 400px;
+    justify-content: flex-start;
+}
 
 .sliders{
-    position: relative;    
+    position: center;    
     max-width: 500px;
     height: 100px;
     align-items: center;
     margin: auto auto 20px auto;
 }
+.sliders .labelRed{
+    color: red;
+}
+.sliders .labelGreen{
+    color: green;
+}
+.sliders .labelBlue{
+    color: blue;
+}
 #red{
     margin-left: 27px;
+    border-radius: 10%;
 }
+
 #green{
     margin-left: 50px;
 }
@@ -32,4 +61,25 @@
     height: 100px;
     border: 1px solid black;
     margin: auto auto 20px auto;
+}
+#result{
+    margin-top: 100px;
+    margin-left: 160px;
+    position: center;
+    align-content: space-around;
+}
+.textoTopo{       
+    margin-left: 440px;
+}
+.conteudoBlog{ 
+    color: royalblue; 
+    margin-top: 400px;         
+    margin-left: 40px;
+}
+.explainContent{
+    max-width: 500px;
+}
+.blog{
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
 }
