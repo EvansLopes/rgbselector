@@ -10,9 +10,9 @@ function colorMix(){
     var blue = document.querySelector('#blue').value;    
     document.querySelector('#valueBlue').value = blue;
 
-    var result = document.querySelector('#result')
+    
     var finalColor = `rgb(${red},${green},${blue})`
-    result.value = `Copie: ${finalColor}`
+    
     
     document.querySelector('#colorCanvas').style.backgroundColor = finalColor;
     

@@ -6,11 +6,13 @@
     background-color: snow;
 }
 .sliders{
+    
     position: center;    
     max-width: 500px;
     height: 100px;
     align-items: center;
-    margin: auto auto 20px auto;
+    margin: auto;
+    border: none;
 }
 .sliders .labelRed{
     color: red;
@@ -22,6 +24,7 @@
     color: blue;
 }
 #red{
+    
     margin-left: 27px;
     border-radius: 10%;
 }
@@ -44,23 +47,19 @@
 
 
 .colorCanvas{
-    position: relative;
+    position: center;  
+    padding: auto;  
     width: 100px;
     height: 100px;
     border: 1px solid black;
-    margin: auto auto 20px auto;
+    margin: 20px auto 20px auto;
 }
 #result{
-    margin-top: 100px;
-    margin-left: 580px;
-    position: center;
-    align-content: space-around;
+    margin-left: 500px;
+    position: absolute;
+    margin: auto;
 }
-.textoTopo{   
-    display: grid;
-    position: relative;
-    margin-left: 420px;
-}
+
 .conteudoBlog{ 
     color: royalblue; 
     margin-top: 400px;         
